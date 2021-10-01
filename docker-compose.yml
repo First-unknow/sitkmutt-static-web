@@ -1,0 +1,6 @@
+services:
+  seogram:
+    build: .
+    image: ghcr.io/first-unknow/static-web:dev
+    ports:
+      - "3001:80"
